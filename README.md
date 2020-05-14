@@ -1,8 +1,29 @@
 # server-token-workshop
 This workshop explain how to use token and token refresh on server side.
 
-## Lesson 01
+## Lesson 02
 
-On this lesson we will learn to create a token using jsonwebtoken module.
+On this lesson we will create base code for REST API.
 
-We will check the differents type of tokens and how to create and decode/verify the tokens already created.
+
+API Schema
+/api/v1/{context}
+
+/api/v1/user
+  POST =>
+  GET
+  PUT
+  PATCH
+
+/api/v1/user/login
+  POST
+  {string} username
+  {string} password
+  {object} data with expiration token
+
+New User=> Register => POST /api/v1/user
+Login => POST /api/v1/user/login ?username&password
+
+Dashboard/app => GET /api/v1/user/profile 
+  Headers: Bearer [token]
+
