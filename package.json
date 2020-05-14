@@ -1,0 +1,32 @@
+{
+  "name": "server-token",
+  "version": "1.0.0",
+  "description": "This is a workshop to explain how to works the token",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xpectreL4bs/server-token-workshop.git"
+  },
+  "keywords": [
+    "jwt",
+    "webtokens",
+    "javascript",
+    "api",
+    "rest"
+  ],
+  "author": "Jesus Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xpectreL4bs/server-token-workshop/issues"
+  },
+  "homepage": "https://github.com/xpectreL4bs/server-token-workshop#readme",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1"
+  }
+}
